@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Fernandes' CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header class="header">
+
+      <a href="#home" class="logo">
+        Pedro <span>Fernandes</span>
+      </a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#works">Work Experience</a>
+        <a href="#projects">Projects</a>  
+    
+      </nav>
+
+      <button class="gradient-btn"><a href="#contact" style="color: white;">Contact Me</a></button>
+      
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi! <span>Pedro</span> here!</h1>
+        <h3>
+          I'm a <span>Software Developer</span>
+        </h3>
+        <p>Third-year Computer Science Student @ Technological University Dublin, passionate about technology and software development, and eager to continue learning and growing</p>
+
+        <div class="social-icons">
+          <a href="https://github.com/xpedrofernandes" target="_blank">
+            <i class="bx bxl-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/xpedrofernandes/" target="_blank">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+
+        </div>
+
+        <div class="btn-group">
+          <a href="CV_PedroFernandes.pdf" target="_blank" class="btn">My CV</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="image.jpg" alt="">
+      </div>
+    </section>
+
+    <section class="about" id="about">
+
+      <div class="about-img">
+        <img src="image.jpg" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>After completing a degree in Law, I made the decision to transition to the tech industry, driven by my curiosity and enthusiasm for programming, AI, and cloud technologies.<br><br>
+        Throughout my studies, I have developed strong technical skills in Python, C, HTML/CSS, and JavaScript, with a particular focus on Python for its versatility in AI and automation. <br><br>
+        In addition to my academic work, I bring valuable leadership and teamwork experience. At TU Dublin, I support and represent the university community as both a Peer Mentor and Student Ambassador, guiding first-year students, assisting with orientation, and representing the university at events such as Open Days and Careers Fairs.<br><br>
+        My experience in management and costumer work in Ireland has also been sharpened by my position as a Floor Manager at The Gotham Café, where I have further developed my leadership and problem-solving skills. <br><br>
+        Additionally, I serve as a facilitator for Leading Ireland’s Future Together (LIFT), organizing weekly leadership discussions and fostering collaboration within teams. <br><br>
+        I am eager to continue growing through internships, projects, and collaborations that allow me to apply my knowledge and contribute to innovative solutions in the tech industry.</p>
+      </div>
+
+    </section>
+
+    <section class="works" id="works">
+      <h2 class="heading">Work Experience</h2>
+
+      
+      <div class="works-container">
+        <div class="work-box">
+          <div class="work-info">
+            <i class="bx bx-restaurant"></i>
+            <h4>Floor Manager @ Gotham Café</h4>
+            <p>Trained, coordinated, and supervised teams of collaborators. Solved conflicts, managed bookings, handled accounting tasks, and made mid-shift decisions. Provided excellent customer work and ensured the company’s standards were met.</p>
+          </div>
+        </div>
+
+        <div class="work-box">
+          <div class="work-info">
+            <i class="bx bxs-graduation"></i>
+            <h4>Peer Mentor <br>@ TU Dublin</h4>
+            <p>I support first-year students in their transition to university life. By sharing insider knowledge and personal experiences, I help them navigate academic and social challenges, foster immediate friendships, and ease anxieties associated with starting college. My role contributes to a stronger sense of identity, enhancing peers' connection to the university community.</p>
+          </div>
+        </div>
+
+        <div class="work-box">
+          <div class="work-info">
+            <i class="bx bxs-message-rounded"></i>
+            <h4>Facilitator <br>@ LIFT</h4>
+            <p>Built leadership values in a group of peers through an 8-week programme, in which round tables were organized each week to discuss Ireland’s top 8 leadership attributes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+
+      <h2 class="heading">Projects</h2>
+
+      <div class="projects-box">
+
+        <div class="project-card">
+          <img src="imagequalifier.png" alt="">
+
+          <h3>AI Image Classifier</h3>
+
+          <p>I built an AI-powered web application in Python using TensorFlow (MobileNetV2), Streamlit, and OpenCV to automatically identify objects in uploaded photos. <br> The system preprocesses images for accuracy and then provides the top three predictions with confidence levels through a clean, user-friendly interface. To ensure responsiveness, I optimized the app with efficient image handling and model caching, resulting in a smooth and reliable user experience.</p>
+          <div class="btn">
+            <a href="https://github.com/xpedrofernandes/AIImageClassifier" target="_blank" class="btn">Review Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project2.png" alt="">
+
+          <h3>Library System</h3>
+
+          <p>I developed a web-based book reservation system using PHP and MySQL, where I implemented key features such as user registration and login, as well as book search by title, author, or category. In addition, I designed and managed the reservation system while ensuring server-side validation for reliability. To improve usability, I created a clean user interface and added pagination to make navigating search results more efficient.</p>
+          <div class="btn">
+            <a href="https://github.com/xpedrofernandes/LibrarySystemPHP" target="_blank" class="btn">Review Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project3.png" alt="">
+
+          <h3>Crossy Road Game</h3>
+
+          <p>As part of a team project, I developed a version of the “Crossy Road” video game using the C language. I implemented features such as game restart, high-score recording, and hardware interaction through buttons and LEDs on a breadboard system. Through this project, I demonstrated strong coding practices and thorough documentation, which resulted in achieving the highest score for code quality and comments.</p>
+          <div class="btn">
+            <a href="https://github.com/xpedrofernandes/CrossyRoadGame" target="_blank" class="btn">Review Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <div class="projects-box">
+
+        <div class="project-card">
+          <i class="bx bx-mail-send"></i>
+
+          <h3>Reach out via e-mail!</h3>
+
+          <p>The fastest way to get in contact in sending me an e-mail. I will get back to you in less than 24 hours.</p>
+          <div class="btn">pedroafonsogf@gmail.com</div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <footer class="footer">
+      <div class="social-icons">
+          <a href="https://github.com/xpedrofernandes" target="_blank">
+            <i class="bx bxl-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/xpedrofernandes/" target="_blank">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+
+        </div>
+
+        <ul class="list">
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+          <li>
+            <a href="#works">Work Experience</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <p class="copyright">
+          © Pedro Fernandes | All Rights Reserved
+        </p>
+    </footer>footer
+
+    <script src="script.js"></script>
+  </body>
+</html>
